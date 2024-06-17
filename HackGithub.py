@@ -70,7 +70,7 @@ def main(args):
             run_command("git push -u origin main")
 
             # تأخير لمدة 10 ثوانٍ قبل التحديث التالي
-            time.sleep(10)
+            time.sleep(1)
     except KeyboardInterrupt:
         console.print("[red]Process interrupted by user.[/red]")
 
