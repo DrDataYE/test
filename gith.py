@@ -78,7 +78,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="رفع مشروع إلى GitHub باستخدام بايثون")
     parser.add_argument("--repo_path", default=".", help="مسار المشروع المحلي")
     parser.add_argument("--remote_url", default="https://github.com/DrDataYE/test.git", help="رابط المستودع البعيد")
-    parser.add_argument("--token", default="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", help="التوكن الخاص بـ GitHub")
+    parser.add_argument("--token", default="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", help="التوكن الخاص بـ GitHub")
     parser.add_argument("--username", default="DrDataYE", help="اسم المستخدم على GitHub")
 
     args = parser.parse_args()
